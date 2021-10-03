@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin"
+    android:paddingLeft="@dimen/margin"
+    android:paddingRight="@dimen/margin"
+    android:paddingTop="@dimen/margin"
+    android:orientation="vertical"
+    tools:context=".MoveForResultActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/pilih_angka_yang_kamu_suka"
+    android:layout_marginBottom="@dimen/margin" />
+
+    <RadioGroup
+        android:id="@+id/rg_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/rb_50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_50"
+        android:layout_marginBottom="@dimen/margin"  />
+
+    <RadioButton
+        android:id="@+id/rb_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_100"
+        android:layout_marginBottom="@dimen/margin"  />
+
+    <RadioButton
+        android:id="@+id/rb_150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_150"
+        android:layout_marginBottom="@dimen/margin" />
+
+    <RadioButton
+        android:id="@+id/rb_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_200"
+        android:layout_marginBottom="@dimen/margin" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih" />
+</LinearLayout>
